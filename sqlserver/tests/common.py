@@ -51,6 +51,7 @@ INSTANCE_DOCKER = {
     'tags': ['optional:tag1'],
     'include_task_scheduler_metrics': True,
     'include_db_fragmentation_metrics': True,
+    'include_ao_metrics': False,
 }
 
 INSTANCE_AO_DOCKER_SECONDARY = {
